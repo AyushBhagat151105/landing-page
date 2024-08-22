@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
+      <Portfolio />
     </main>
   );
 }
