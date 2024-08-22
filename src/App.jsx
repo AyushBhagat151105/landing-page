@@ -3,6 +3,8 @@ import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
+import About from "./components/About";
+import Reviews from "./components/Reviews";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +15,8 @@ function App() {
       <Hero />
       <Services />
       <Portfolio />
+      <About />
+      <Reviews />
     </main>
   );
 }
